@@ -27,7 +27,21 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
+button {
+    border: 1px solid var(--border);
+    padding: 20px 45px;
+    font-size: .8rem;
+    text-transform: uppercase;
+    background: transparent;
+    cursor: pointer;
+    color: var(--white);
+    letter-spacing: 2px;
+    border-radius: 40px;
+    transition: var(--transition);
+}
+button:hover {
+    background: rgba(255,255,255,.4);
+}
 /* nav */
 nav {
     width: 25%;
@@ -79,6 +93,32 @@ main {
     width: 75%;
     float: right;
 }
+
+/* header */
+header {
+    padding-left: 50px;
+    background-image: linear-gradient(rgba(100, 76, 160, 0.9), rgba(100, 76, 160, 0.9)), url(img/circle.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+header h1 {
+    font-size: 4rem;
+    color: var(--white);
+}
+header p {
+    font-size: 1.3rem;
+    color: var(--lightGray);
+    padding: 30px 0;
+    line-height:1.8;
+}
+
+
+
 
 
 
