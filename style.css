@@ -245,5 +245,74 @@ header p {
     margin-top: 30px;
 }
 
+/* form */
+.form {
+    background: var(--footerBg);
+    padding: 70px;
+}
+.form article:first-child h2 {
+    font-size: 2.5rem;
+    color: var(--white);
+}
+.form article:first-child p {
+    font-size: 1.2rem;
+    color: var(--lightGray);
+    padding: 20px 0;
+}
+.form article:last-child {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form article:last-child .colLeft {
+    flex: 2;
+    margin-right: 20px;
+}
+.form article:last-child .colRight {
+    flex: 1;
+    border-left: 1px solid var(--borderLightGray);
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form article:last-child input,
+.form article:last-child textarea {
+    padding: 20px;
+    border-radius: 5px;
+    background: rgba(255,255,255,.2);
+    border: none;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form input {
+    flex: 0 0 48%;
+    margin-bottom: 35px;
+}
+form textarea {
+     flex: 0 0 100%;
+     margin-bottom: 20px;
+}
+.form article:last-child .colRight h4 {
+    color: var(--white);
+    font-size: 1.1rem;
+}
+.form article:last-child .colRight p {
+    font-size: 1.2rem;
+    color: var(--lightGray);
+    padding: 10px 0;
+}
+
+/* footer */
+footer {
+    background: var(--primaryViolet);
+    padding: 30px;
+    text-align: center;
+    color: var(--lightGray);
+    font-size: 1.1rem;
+}
+
 
 
