@@ -19,8 +19,66 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
 html {
     scroll-behavior: smooth;
 }
 
 /* nav */
+nav {
+    width: 25%;
+    float: left;
+    background: var(--navColor);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+}
+nav img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+nav ul li {
+    list-style: none;
+    padding: 20px 50px 20px 20px;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: .8rem;
+    color: var(--white);
+    border-bottom: 2px solid var(--border);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: var(--transition);
+}
+nav ul li a:hover {
+    border-bottom: 2px solid var(--fourthBg);
+    color: var(--lightGray);
+}
+nav ul .icons a {
+    border: none;
+    display: inline;
+    font-size: 1.6rem;
+    margin: 10px 0 0 10px;
+}
+nav ul .icons a:hover {
+    color: var(--fourthBg);
+    border: none;
+}
+
+/* main */
+main {
+    width: 75%;
+    float: right;
+}
+
+
+
